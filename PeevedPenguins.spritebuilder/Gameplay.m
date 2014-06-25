@@ -27,10 +27,9 @@ CCNode *_catapultArm;
 - (void)launchPenguin {
     // loads the Penguin.ccb we have set up in Spritebuilder
     CCNode* penguin = [CCBReader load:@"Penguin"];
-        NSLog(@"made it here");
     // position the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
-    
+        NSLog(@"made it here");
     // add the penguin to the physicsNode of this scene (because it has physics enabled)
     [_physicsNode addChild:penguin];
     
