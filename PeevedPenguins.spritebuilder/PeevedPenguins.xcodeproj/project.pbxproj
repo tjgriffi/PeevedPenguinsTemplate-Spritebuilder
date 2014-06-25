@@ -38,6 +38,7 @@
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		DF55A18C195A48F700C9F12D /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A18B195A48F700C9F12D /* Penguin.m */; };
 		DF55A192195AAC8A00C9F12D /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A191195AAC8A00C9F12D /* Seal.m */; };
+		DF55A196195B33D900C9F12D /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A195195B33D900C9F12D /* Gameplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		DF55A18B195A48F700C9F12D /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		DF55A190195AAC8A00C9F12D /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
 		DF55A191195AAC8A00C9F12D /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
+		DF55A194195B33D900C9F12D /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		DF55A195195B33D900C9F12D /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				DF55A194195B33D900C9F12D /* Gameplay.h */,
+				DF55A195195B33D900C9F12D /* Gameplay.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				DF55A18C195A48F700C9F12D /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				DF55A196195B33D900C9F12D /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
