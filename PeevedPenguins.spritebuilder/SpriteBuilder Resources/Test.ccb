@@ -383,7 +383,7 @@
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
-						<string></string>
+						<string>Gameplay</string>
 						<key>displayName</key>
 						<string>ground</string>
 						<key>memberVarAssignmentName</key>
