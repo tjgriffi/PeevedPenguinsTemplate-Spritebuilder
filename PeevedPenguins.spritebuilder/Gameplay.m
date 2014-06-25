@@ -21,13 +21,13 @@ CCNode *_catapultArm;
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-    NSLog(@"made it here");
     [self launchPenguin];
 }
 
 - (void)launchPenguin {
     // loads the Penguin.ccb we have set up in Spritebuilder
     CCNode* penguin = [CCBReader load:@"Penguin"];
+        NSLog(@"made it here");
     // position the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
