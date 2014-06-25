@@ -21,7 +21,7 @@ CCNode *_catapultArm;
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-    NSLOG(@"made it here");
+    NSLog(@"made it here");
     [self launchPenguin];
 }
 
