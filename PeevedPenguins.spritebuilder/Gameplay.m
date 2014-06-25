@@ -9,9 +9,10 @@
 #import "Gameplay.h"
 
 @implementation Gameplay
-
+{
 CCPhysicsNode *_physicsNode;
 CCNode *_catapultArm;
+}
 
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
@@ -35,6 +36,5 @@ CCNode *_catapultArm;
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
-        NSLog(@"made it here");
 }
 @end
