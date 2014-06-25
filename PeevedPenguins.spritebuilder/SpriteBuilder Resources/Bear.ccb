@@ -260,7 +260,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>3.6666660308837891</real>
+						<real>-15</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -423,11 +423,11 @@
 			<key>length</key>
 			<real>2</real>
 			<key>name</key>
-			<string>ArmAnimation</string>
+			<string>Arm Animation</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>1.4666666984558105</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
