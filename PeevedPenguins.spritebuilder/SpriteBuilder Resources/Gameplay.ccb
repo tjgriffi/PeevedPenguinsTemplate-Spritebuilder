@@ -1207,6 +1207,8 @@
 								<string></string>
 								<key>displayName</key>
 								<string>CCNode</string>
+								<key>hidden</key>
+								<true/>
 								<key>memberVarAssignmentName</key>
 								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentType</key>
