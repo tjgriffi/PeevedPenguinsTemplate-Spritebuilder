@@ -139,8 +139,6 @@
 					</array>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1097,8 +1095,6 @@
 								<string></string>
 								<key>displayName</key>
 								<string>CCNode</string>
-								<key>hidden</key>
-								<true/>
 								<key>memberVarAssignmentName</key>
 								<string>_pullbackNode</string>
 								<key>memberVarAssignmentType</key>
@@ -1230,7 +1226,7 @@
 									<key>collisionType</key>
 									<string></string>
 									<key>cornerRadius</key>
-									<real>0.0</real>
+									<real>10</real>
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
@@ -1311,6 +1307,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
