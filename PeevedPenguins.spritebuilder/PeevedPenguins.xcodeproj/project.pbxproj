@@ -39,6 +39,7 @@
 		DF55A19B195B544200C9F12D /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A19A195B544200C9F12D /* Gameplay.m */; };
 		DF55A19E195B554900C9F12D /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A19D195B554900C9F12D /* Seal.m */; };
 		DF55A1A1195B555700C9F12D /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A1A0195B555700C9F12D /* Penguin.m */; };
+		DF55A1A8195CA83700C9F12D /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55A1A7195CA83700C9F12D /* WaitingPenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		DF55A19F195B555600C9F12D /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		DF55A1A0195B555700C9F12D /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		DF55A1A4195C926F00C9F12D /* Gameplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		DF55A1A6195CA83700C9F12D /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
+		DF55A1A7195CA83700C9F12D /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				DF55A1A4195C926F00C9F12D /* Gameplay.h */,
 				DF55A19A195B544200C9F12D /* Gameplay.m */,
+				DF55A1A6195CA83700C9F12D /* WaitingPenguin.h */,
+				DF55A1A7195CA83700C9F12D /* WaitingPenguin.m */,
 				DF55A19C195B554900C9F12D /* Seal.h */,
 				DF55A19D195B554900C9F12D /* Seal.m */,
 				DF55A19F195B555600C9F12D /* Penguin.h */,
@@ -357,6 +362,7 @@
 			files = (
 				DF55A1A1195B555700C9F12D /* Penguin.m in Sources */,
 				DF55A19E195B554900C9F12D /* Seal.m in Sources */,
+				DF55A1A8195CA83700C9F12D /* WaitingPenguin.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				DF55A19B195B544200C9F12D /* Gameplay.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
