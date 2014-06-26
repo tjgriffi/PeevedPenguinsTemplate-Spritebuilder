@@ -98,6 +98,7 @@
 		DF55A19D195B554900C9F12D /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
 		DF55A19F195B555600C9F12D /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		DF55A1A0195B555700C9F12D /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
+		DF55A1A4195C926F00C9F12D /* Gameplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +138,7 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				DF55A1A4195C926F00C9F12D /* Gameplay.h */,
 				DF55A19A195B544200C9F12D /* Gameplay.m */,
 				DF55A19C195B554900C9F12D /* Seal.h */,
 				DF55A19D195B554900C9F12D /* Seal.m */,
