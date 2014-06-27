@@ -72,25 +72,25 @@ static const float MIN_SPEED = 5.f;
         _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
     }
 }
-- (void)launchPenguin {
-    // loads the Penguin.ccb we have set up in Spritebuilder
-    CCNode* penguin = [CCBReader load:@"Penguin"];
-    // position the penguin at the bowl of the catapult
-    penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
-    
-    // add the penguin to the physicsNode of this scene (because it has physics enabled)
-    [_physicsNode addChild:penguin];
-    
-    // manually create & apply a force to launch the penguin
-    CGPoint launchDirection = ccp(1, 0);
-    CGPoint force = ccpMult(launchDirection, 8000);
-    [penguin.physicsBody applyForce:force];
-    
-    // ensure followed object is in visible are when starting
-    self.position = ccp(0, 0);
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [_contentNode runAction:follow];
-}
+//- (void)launchPenguin {
+//    // loads the Penguin.ccb we have set up in Spritebuilder
+//    CCNode* penguin = [CCBReader load:@"Penguin"];
+//    // position the penguin at the bowl of the catapult
+//    penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
+//    
+//    // add the penguin to the physicsNode of this scene (because it has physics enabled)
+//    [_physicsNode addChild:penguin];
+//    
+//    // manually create & apply a force to launch the penguin
+//    CGPoint launchDirection = ccp(1, 0);
+//    CGPoint force = ccpMult(launchDirection, 8000);
+//    [penguin.physicsBody applyForce:force];
+//    
+//    // ensure followed object is in visible are when starting
+//    self.position = ccp(0, 0);
+//    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+//    [_contentNode runAction:follow];
+//}
 
 - (void)retry {
     // reload this level
